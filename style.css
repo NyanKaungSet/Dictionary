@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+#Input {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid black;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+th{
+    background-color: #494040;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #333;
+    color: #fff;
+}
+tr:hover{
+    color: #fff;
+    background-color: darkorange;
+}
