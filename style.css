@@ -34,3 +34,14 @@ tr:hover{
     color: #fff;
     background-color: darkorange;
 }
+
+marquee{
+    background-color: #1a1add;
+    color: #fff;
+    align-items: center;
+    font-family: monospace;
+    font-size: large;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
